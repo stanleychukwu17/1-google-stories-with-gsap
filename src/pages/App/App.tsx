@@ -4,6 +4,7 @@ import './app.scss';
 
 import MiddlePhone from '../../components/App/md/MiddlePhone'
 
+
 // importing of all assets
 import phone from '../../assets/svg/p1.svg'
 
@@ -21,6 +22,9 @@ const App = () => {
                 <div className='AppMgo boy'><MiddlePhone /></div>
                 <div className="AppMgo"></div>
                 <div className="AppMgo"></div>
+            </div>
+            <div className="">
+                
             </div>
         </div>
     )
