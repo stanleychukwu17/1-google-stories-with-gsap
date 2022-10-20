@@ -6,34 +6,27 @@
 .AppMain {
     @include u1.block_display();
     max-width: 100vw;
-    // background: linear-gradient(135deg, #B0F3F1 0%, #FFCFDF 100%);
+    background: linear-gradient(90deg, #B0F3F1 0%, #FFCFDF 100%);
 
-    .AppTCvr {
-        width: 100vw;
-        height: 100vh;
-        @include u1.block_display();
-        background: linear-gradient(135deg, #B0F3F1 0%, #FFCFDF 100%);
+    .AppTitle {
+        text-align: center;
+        margin: calc(100vh/4) 0 0;
+        font-weight: bold;
 
-        .AppTitle {
-            text-align: center;
-            margin: calc(100vh/4) 0 0;
-            font-weight: bold;
-
-            p:nth-child(1) {
-                font-size: 180px;
-                background: -webkit-linear-gradient(135deg, #1CB5E0 0%, #000851 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-            p:nth-child(2) {
-                color: #000;
-                font-size: 20px;
-            }
+        p:nth-child(1) {
+            font-size: 180px;
+            background: -webkit-linear-gradient(135deg, #1CB5E0 0%, #000851 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p:nth-child(2) {
+            color: #000;
+            font-size: 20px;
         }
     }
 
     .boy {
-        width: 900px;
+        width: 400px;
         display: block;
         position: relative;
         overflow: hidden;

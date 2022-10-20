@@ -10,13 +10,12 @@ const App = () => {
 
     return (
         <div className="AppMain">
-            <div className="AppTCvr">
-                <div className="AppTitle">
-                    <p>Your dream</p>
-                    <p>Meet the new iPhone 14 pro</p>
-                </div>
+            <div className="AppTitle">
+                <p>Your dream</p>
+                <p>Meet the new iPhone 14 pro</p>
             </div>
             <div className='boy'>
+                <img src={phone} alt="" />
             </div>
         </div>
     )
