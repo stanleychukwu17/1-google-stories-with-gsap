@@ -2,7 +2,7 @@ import './app.scss';
 // import { motion } from 'framer-motion';
 // import { gsap } from 'gsap';
 
-import MiddlePhone from '../../components/App/MiddlePhone'
+import MiddlePhone from '../../components/App/md/MiddlePhone'
 
 // importing of all assets
 import phone from '../../assets/svg/p1.svg'
