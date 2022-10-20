@@ -1,0 +1,41 @@
+.cls-1 {
+    fill: none;
+}
+.cls-2 {
+    isolation: isolate;
+}
+.cls-3 {
+    fill: #232322;
+}
+.cls-4 {
+    fill: #c3c1c0;
+}
+.cls-5 {
+    fill: #373533;
+}
+.cls-6 {
+    fill: #555656;
+}
+.cls-7 {
+    fill: #0d0d0d;
+}
+.cls-8 {
+    fill: url(#linear-gradient);
+}
+.cls-9 {
+    opacity: 0.5;
+    mix-blend-mode: darken;
+}
+.cls-10 {
+    clip-path: url(#clip-path);
+}
+.cls-11 {
+    fill: #020202;
+}
+.cls-12 {
+    fill: url(#radial-gradient);
+}
+.cls-13 {
+    fill: #151515;
+    opacity: 0.56;
+}
