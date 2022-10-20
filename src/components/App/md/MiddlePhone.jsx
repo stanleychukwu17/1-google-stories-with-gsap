@@ -1,4 +1,7 @@
+
 import './mp.css';
+import { image1 } from './imagesInfo';
+import { image2 } from './imagesInfo';
 
 export default function MiddlePhone() {
     return (
@@ -28,11 +31,11 @@ export default function MiddlePhone() {
                     <rect id="s3" className="cls-7" x="297.67" y="103.99" width="330.78" height="693.82" rx="40.94"/>
                     <rect id="s2" className="cls-8" x="309.18" y="114.41" width="308.86" height="673.2" rx="32.43"/>
                     <g id="s1" className="cls-9">
-                        <image width="1588" height="3106" transform="translate(273.14 78.31) scale(0.24)" xlinkHref=""/>
+                        <image width="1588" height="3106" transform="translate(273.14 78.31) scale(0.24)" xlinkHref={image1}/>
                     </g>
                 </g>
                 <g className="cls-10">
-                    <image width="1600" height="1200" transform="scale(0.85)" xlinkHref=""/>
+                    <image width="1600" height="1200" transform="scale(0.85)" xlinkHref={image2}/>
                 </g>
                 <g id="island">
                     <rect className="cls-11" x="407.95" y="121.96" width="111.45" height="27.77" rx="11.57"/>
