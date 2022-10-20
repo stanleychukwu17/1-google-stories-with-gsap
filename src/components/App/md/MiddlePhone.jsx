@@ -1,7 +1,8 @@
-
 import './mp.css';
 import { image1 } from './imagesInfo';
 import { image2 } from './imagesInfo';
+
+// <image width="1600" height="1200" x="-520" y="-105" transform="scale(0.85)" xlinkHref={image2}/>
 
 export default function MiddlePhone() {
     return (

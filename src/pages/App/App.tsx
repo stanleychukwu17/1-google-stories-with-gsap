@@ -16,9 +16,6 @@ const App = () => {
                 <p>Meet the new iPhone 14 pro</p>
             </div>
             <div className='boy'>
-                <img src={phone} alt="" />
-            </div>
-            <div className='boy'>
                 <MiddlePhone />
             </div>
         </div>
