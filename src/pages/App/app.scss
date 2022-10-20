@@ -6,5 +6,23 @@
 .AppMain {
     @include u1.block_display();
     min-width: 100vw;
-    min-height: 100vh
+    min-height: 100vh;
+    background: linear-gradient(135deg, #B0F3F1 0%, #FFCFDF 100%);
+
+    .AppTitle {
+        text-align: center;
+        margin: calc(100vh/4) 0 0;
+        font-weight: bold;
+
+        p:nth-child(1) {
+            font-size: 180px;
+            background: -webkit-linear-gradient(135deg, #1CB5E0 0%, #000851 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p:nth-child(2) {
+            color: #000;
+            font-size: 20px;
+        }
+    }
 }
