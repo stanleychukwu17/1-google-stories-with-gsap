@@ -15,8 +15,12 @@ const App = () => {
                 <p>Your dream</p>
                 <p>Meet the new iPhone 14 pro</p>
             </div>
-            <div className='boy'>
-                <MiddlePhone />
+            <div className="AppMid_1">
+                <div className="AppMgo"></div>
+                <div className="AppMgo"></div>
+                <div className='AppMgo boy'><MiddlePhone /></div>
+                <div className="AppMgo"></div>
+                <div className="AppMgo"></div>
             </div>
         </div>
     )

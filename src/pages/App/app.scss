@@ -10,7 +10,7 @@
 
     .AppTitle {
         text-align: center;
-        margin: calc(100vh/4) 0 0;
+        margin: calc(10vh) 0 0;
         font-weight: bold;
 
         p:nth-child(1) {
@@ -25,14 +25,35 @@
         }
     }
 
-    .boy {
-        width: 400px;
-        display: block;
-        position: relative;
-        overflow: hidden;
+    .AppMid_1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: top;
+        margin: 100px 0 0;
+
+        .AppMgo {
+            width: 15%;
+            height: 400px;
+            border-radius: 50px;
+            background-color: #000851;
+            &:not(.boy) {
+                background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+            }
+
+            &.boy {
+                display: block;
+                position: relative;
+                overflow: hidden;
+                width: 30%;
+                height: auto;
+                background-color: transparent;
+
+                img {
+                    position: relative;
+                    width: inherit;
+                }
+            }
+        }
     }
-    img {
-        position: relative;
-        width: inherit;
-    }
+
 }
